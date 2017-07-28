@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		F3B06D111F2A67D1006C0555 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B06D101F2A67D1006C0555 /* main.m */; };
+		F3B06D191F2A682D006C0555 /* Dogtor.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B06D181F2A682D006C0555 /* Dogtor.m */; };
+		F3B06D1C1F2A6835006C0555 /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B06D1B1F2A6835006C0555 /* Patient.m */; };
+		F3B06D221F2AD402006C0555 /* Prescriptions.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B06D211F2AD402006C0555 /* Prescriptions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		F3B06D0D1F2A67D1006C0555 /* Patient & Dogtor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Patient & Dogtor"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B06D101F2A67D1006C0555 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3B06D171F2A682D006C0555 /* Dogtor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dogtor.h; sourceTree = "<group>"; };
+		F3B06D181F2A682D006C0555 /* Dogtor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dogtor.m; sourceTree = "<group>"; };
+		F3B06D1A1F2A6835006C0555 /* Patient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
+		F3B06D1B1F2A6835006C0555 /* Patient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
+		F3B06D201F2AD402006C0555 /* Prescriptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prescriptions.h; sourceTree = "<group>"; };
+		F3B06D211F2AD402006C0555 /* Prescriptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Prescriptions.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				F3B06D101F2A67D1006C0555 /* main.m */,
+				F3B06D171F2A682D006C0555 /* Dogtor.h */,
+				F3B06D181F2A682D006C0555 /* Dogtor.m */,
+				F3B06D201F2AD402006C0555 /* Prescriptions.h */,
+				F3B06D211F2AD402006C0555 /* Prescriptions.m */,
+				F3B06D1A1F2A6835006C0555 /* Patient.h */,
+				F3B06D1B1F2A6835006C0555 /* Patient.m */,
 			);
 			path = "Patient & Dogtor";
 			sourceTree = "<group>";
@@ -119,7 +134,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3B06D1C1F2A6835006C0555 /* Patient.m in Sources */,
+				F3B06D191F2A682D006C0555 /* Dogtor.m in Sources */,
 				F3B06D111F2A67D1006C0555 /* main.m in Sources */,
+				F3B06D221F2AD402006C0555 /* Prescriptions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
